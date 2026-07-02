@@ -1,0 +1,13 @@
+Loci_category,GO_term,FDR,DMG_count
+haEWAS-specific,Neurogenesis,1.25e-07,44
+haEWAS-specific,Generation of neurons,5.35e-06,36
+haEWAS-specific,Central nervous system development,0.000277,25
+haEWAS-specific,Gliogenesis,0.000441,13
+Common,Cell activation,5.8e-22,65
+Common,Hemopoiesis,3.2500000000000003e-21,59
+Common,Lymphocyte activation,5.3e-16,47
+Common,Regulation of immune system process,1.65e-15,66
+EWAS-specific,Cell adhesion,9.23e-20,72
+EWAS-specific,Leukocyte cell-cell adhesion,9.93e-12,30
+EWAS-specific,Leukocyte migration,2.66e-09,25
+EWAS-specific,Regulation of T cell activation,1.69e-08,24

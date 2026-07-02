@@ -1,0 +1,31 @@
+Panel,Annotation_context,Region,Loci_category,log2_OR,P_value
+d,CpG island context,OpenSea,EWAS-specific,0.634242467,1.59E-17
+d,CpG island context,OpenSea,Common,1.16683918,1.94E-11
+d,CpG island context,OpenSea,haEWAS-specific,0.198908541,7.69E-05
+d,CpG island context,Shelf,EWAS-specific,0.021900102,0.862292985
+d,CpG island context,Shelf,Common,-0.017680023,1
+d,CpG island context,Shelf,haEWAS-specific,-0.372412311,2.96E-05
+d,CpG island context,Shore,EWAS-specific,-0.159973021,0.070582048
+d,CpG island context,Shore,Common,-0.528462208,0.014828524
+d,CpG island context,Shore,haEWAS-specific,-0.312205212,1.21E-07
+d,CpG island context,Island,EWAS-specific,-0.645089823,3.46E-14
+d,CpG island context,Island,Common,-1.060233752,5.17E-07
+d,CpG island context,Island,haEWAS-specific,0.171691774,0.000991624
+d,Gene region,3'UTR,EWAS-specific,0.235236661,0.219953508
+d,Gene region,3'UTR,Common,-0.097432665,0.871706723
+d,Gene region,3'UTR,haEWAS-specific,-0.383523663,0.007865949
+d,Gene region,Gene body,EWAS-specific,0.6387927,7.67E-14
+d,Gene region,Gene body,Common,0.736500068,0.000268107
+d,Gene region,Gene body,haEWAS-specific,0.060075502,0.303338625
+d,Gene region,1stExon,EWAS-specific,-0.550782615,0.060976975
+d,Gene region,1stExon,Common,0.384745204,0.524907962
+d,Gene region,1stExon,haEWAS-specific,0.461875086,0.003298814
+d,Gene region,5'UTR,EWAS-specific,-0.127886461,0.319708519
+d,Gene region,5'UTR,Common,0.227220207,0.47142362
+d,Gene region,5'UTR,haEWAS-specific,0.295322425,0.000243732
+d,Gene region,TSS1500,EWAS-specific,-0.429984985,0.000100823
+d,Gene region,TSS1500,Common,-0.534311453,0.049228178
+d,Gene region,TSS1500,haEWAS-specific,-0.282617234,9.87E-05
+d,Gene region,TSS200,EWAS-specific,-0.619671373,1.01E-06
+d,Gene region,TSS200,Common,-1.185553246,0.000442353
+d,Gene region,TSS200,haEWAS-specific,-0.029840148,0.708976844

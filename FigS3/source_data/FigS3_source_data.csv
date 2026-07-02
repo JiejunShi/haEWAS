@@ -1,0 +1,47 @@
+Phenotype,Trait_type,Trait_category,Y_label,EWAS_specific_loci,Common_loci,haEWAS_specific_loci,Total_loci,haEWAS_share,case,control,Samples,Plot_order
+Parkinson's Disease,Binary,Neurological,Parkinson's Disease | 1629 vs 1424,1419,1760,1956,5135,0.38091528724440116,1629.0,1424.0,1629;1424,0
+Huntington's Disease,Binary,Neurological,Huntington's Disease | 215 vs 135,8819,4648,6736,20203,0.33341582933227737,215.0,135.0,215;135,1
+Braak Stage,Continuous,Neurological,Braak Stage | n=1030,799,2952,400,4151,0.0963623223319682,,,1030,2
+Sporadic Creutzfeldt-Jakob Disease,Binary,Neurological,Sporadic Creutzfeldt-Jakob Disease | 114 vs 105,197,103,12,312,0.038461538461538464,114.0,105.0,114;105,3
+Behavior Score Index,Continuous,Psychiatric,Behavior Score Index | n=536,0,0,50,50,1.0,,,536,4
+Schizophrenia,Binary,Psychiatric,Schizophrenia | 2069 vs 2046,93,9,3419,3521,0.9710309571144561,2069.0,2046.0,1656;1525,5
+Intellectual Disability,Binary,Psychiatric,Intellectual Disability | 570 vs 150,51,16,124,191,0.6492146596858639,570.0,150.0,570;150,6
+First Episode Psychosis,Binary,Psychiatric,First Episode Psychosis | 720 vs 724,40,100,186,326,0.5705521472392638,720.0,724.0,720;724,7
+Ulcerative Colitis,Binary,Immune system disease,Ulcerative Colitis | 284 vs 85,9,74,2708,2791,0.9702615549982085,284.0,85.0,284;85,8
+Systemic Lupus Erythematosus,Binary,Immune system disease,Systemic Lupus Erythematosus | 447 vs 381,100,68,3338,3506,0.9520821448944666,447.0,381.0,447;381,9
+SLEDAI Score,Continuous,Immune system disease,SLEDAI Score | n=440,81,40,1782,1903,0.9364161849710982,,,440,10
+Psoriasis,Binary,Immune system disease,Psoriasis | 155 vs 62,27,11,95,133,0.7142857142857143,155.0,62.0,155;62,11
+Arthritis,Binary,Immune system disease,Arthritis | 958 vs 696,114,57,182,353,0.5155807365439093,958.0,696.0,958;696,12
+Inflammatory Bowel Disease,Binary,Immune system disease,Inflammatory Bowel Disease | 688 vs 338,448,264,673,1385,0.48592057761732854,688.0,338.0,688;338,13
+Allergy,Binary,Immune system disease,Allergy | 194 vs 244,143,15,47,205,0.22926829268292684,194.0,244.0,194;244,14
+COVID19,Binary,Infection,COVID19 | 575 vs 127,210,327,1513,2050,0.7380487804878049,575.0,127.0,575;127,15
+HIV,Binary,Infection,HIV | 549 vs 263,44,16,113,173,0.653179190751445,549.0,263.0,549;263,16
+HCV Status,Binary,Infection,HCV Status | 316 vs 475,67,122,109,298,0.36577181208053694,316.0,475.0,316;475,17
+Viral Load(log10),Continuous,Infection,Viral Load(log10) | n=588,121,392,206,719,0.2865090403337969,,,588,18
+Idiopathic Pulmonary Fibrosis,Binary,Respiratory,Idiopathic Pulmonary Fibrosis | 345 vs 202,24,77,1934,2035,0.9503685503685504,345.0,202.0,345;202,19
+Asthma,Binary,Respiratory,Asthma | 251 vs 188,2,0,10,12,0.8333333333333334,251.0,188.0,251;188,20
+Colorectal Cancer,Binary,Cancer,Colorectal Cancer | 548 vs 300,554,157,1534,2245,0.6832962138084633,548.0,300.0,548;300,21
+Breast Cancer,Binary,Cancer,Breast Cancer | 1399 vs 481,1885,291,3573,5749,0.6214993911984693,1399.0,481.0,1399;481,22
+Liver Cancer,Binary,Cancer,Liver Cancer | 1077 vs 282,13447,827,955,15229,0.06270930461619278,1077.0,282.0,1077;282,23
+PSA Amount,Continuous,Cancer,PSA Amount | n=181,18,0,0,18,0.0,,,181,24
+HOMA-IR,Continuous,Metabolic disease,HOMA-IR | n=332,9,4,91,104,0.875,,,332,25
+Gestational Diabetes Mellitus,Binary,Metabolic disease,Gestational Diabetes Mellitus | 263 vs 496,8,16,37,61,0.6065573770491803,263.0,496.0,263;496,26
+Diabetes,Binary,Metabolic disease,Diabetes | 259 vs 260,164,193,75,432,0.1736111111111111,259.0,260.0,259;260,27
+Preeclampsia,Binary,Cardiovascular disease,Preeclampsia | 63 vs 182,4,13,83,100,0.83,63.0,182.0,63;182,28
+Atherosclerosis,Binary,Cardiovascular disease,Atherosclerosis | 255 vs 136,0,4,2,6,0.3333333333333333,255.0,136.0,255;136,29
+Waist Circumference(CM),Continuous,Body weights and measures,Waist Circumference(CM) | n=474,0,0,86,86,1.0,,,474,30
+Birth Weight(Kg),Continuous,Body weights and measures,Birth Weight(Kg) | n=1833,131,320,530,981,0.5402650356778798,,,1833,31
+BMI,Continuous,Body weights and measures,BMI | n=1668,7,2,2,11,0.18181818181818182,,,1668,32
+Postmenstrual Age(Weeks),Continuous,Reproduction,Postmenstrual Age(Weeks) | n=536,170,326,2320,2816,0.8238636363636364,,,536,33
+Assisted Reproductive Technologies(ART),Binary,Reproduction,Assisted Reproductive Technologies(ART) | 591 vs 1414,11,5,43,59,0.7288135593220338,591.0,1414.0,591;1414,34
+Gestational Age(Weeks),Continuous,Reproduction,Gestational Age(Weeks) | n=1596,1421,2643,3760,7824,0.48057259713701433,,,1596,35
+Birth Mode,Binary,Reproduction,Birth Mode | 175 vs 146,8,11,11,30,0.36666666666666664,175.0,146.0,175;146,36
+Parity,Binary,Reproduction,Parity | 247 vs 408,64,95,38,197,0.19289340101522842,247.0,408.0,247;408,37
+Edematous Severe Acute Malnutrition,Binary,Nutritional,Edematous Severe Acute Malnutrition | 195 vs 179,96,183,34,313,0.10862619808306709,195.0,179.0,195;179,38
+Total PBB Exposure,Continuous,Environment,Total PBB Exposure | n=673,239,176,9116,9531,0.9564578743048998,,,673,39
+Chronic Stress,Continuous,Environment,Chronic Stress | n=520,599,490,2432,3521,0.6907128656631639,,,520,40
+Alcohol Use in Pregnancy,Binary,Environment,Alcohol Use in Pregnancy | 63 vs 442,577,331,1136,2044,0.5557729941291585,63.0,442.0,63;442,41
+Smoking Status,Binary,Environment,Smoking Status | 353 vs 493,65,32,30,127,0.23622047244094488,353.0,493.0,353;493,42
+Adolescent Victimization,Binary,Environment,Adolescent Victimization | 472 vs 472,63,44,24,131,0.183206106870229,472.0,472.0,472;472,43
+War Trauma,Continuous,Environment,War Trauma | n=520,164,133,65,362,0.17955801104972377,,,520,44
+Zygosity,Binary,Other trait,Zygosity | 267 vs 826,152,298,180,630,0.2857142857142857,267.0,826.0,267;826,45

@@ -1,0 +1,13 @@
+Panel,Loci_category,GO_term,P_value,Minus_log10P,DE_genes,Plot_order_top_to_bottom
+c,haEWAS-specific,Multicellular organism development,6.911953175959681e-11,10.160399212585183,720,1
+c,haEWAS-specific,Anatomical structure morphogenesis,2.045256892885941e-08,7.689252135013188,452,2
+c,haEWAS-specific,Cell differentiation,4.613858289061817e-08,7.3359357486150145,635,3
+c,haEWAS-specific,Cell fate commitment,1.0566174617780064e-05,4.976082216390733,72,4
+c,Common,Glycosaminoglycan biosynthetic process,0.00013493457380318,3.869876758347902,7,5
+c,Common,Glycosaminoglycan metabolic process,0.0008433325859026105,3.0740011184511755,7,6
+c,Common,Proteoglycan metabolic process,0.0019331377566648,2.7137371967589985,6,7
+c,Common,Regulation of extracellular matrix assembly,0.0072687817474087,2.1385383710821726,3,8
+c,EWAS-specific,Antigen processing and presentation,8.769062423966199e-05,4.057046838317523,22,9
+c,EWAS-specific,Immune response,8.874129413092882e-05,4.051874242175435,141,10
+c,EWAS-specific,Regulation of toll-like receptor 4 signaling pathway,0.0011275424528597,2.947867097613532,8,11
+c,EWAS-specific,Adaptive immune response,0.0012213917326832,2.913145023968627,47,12

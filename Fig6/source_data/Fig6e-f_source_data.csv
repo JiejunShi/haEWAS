@@ -1,0 +1,21 @@
+Panel,Cell_type,Title,Row_order,GO_term,GO_label,FDR_haEWAS_specific,FDR_Common,FDR_EWAS_specific
+e,Hep,Hep pathway enrichment,1,GOBP_LIPID_METABOLIC_PROCESS,Lipid metabolic process,2.24E-11,0.00131,NA
+e,Hep,Hep pathway enrichment,2,GOBP_SMALL_MOLECULE_METABOLIC_PROCESS,Small molecule metabolic process,4.18E-11,4.09E-04,NA
+e,Hep,Hep pathway enrichment,3,GOBP_ORGANIC_ACID_METABOLIC_PROCESS,Organic acid metabolic process,9.61E-06,NA,NA
+e,Hep,Hep pathway enrichment,4,GOBP_ALCOHOL_METABOLIC_PROCESS,Alcohol metabolic process,4.11E-05,NA,NA
+e,Hep,Hep pathway enrichment,5,GOBP_ENZYME_LINKED_RECEPTOR_PROTEIN_SIGNALING_PATHWAY,Enzyme linked receptor protein signaling pathway,1.17E-06,5.68E-05,NA
+e,Hep,Hep pathway enrichment,6,GOBP_DNA_REPAIR,Dna repair,NA,0.0028,NA
+e,Hep,Hep pathway enrichment,7,GOBP_ENDOCYTOSIS,Endocytosis,NA,1.88E-04,NA
+e,Hep,Hep pathway enrichment,8,GOBP_MITOTIC_NUCLEAR_DIVISION,Mitotic nuclear division,NA,0.0028,1.19E-05
+e,Hep,Hep pathway enrichment,9,GOBP_CHROMOSOME_SEGREGATION,Chromosome segregation,NA,1.48E-04,2.33E-06
+e,Hep,Hep pathway enrichment,10,GOBP_SPINDLE_ORGANIZATION,Spindle organization,NA,NA,7.05E-05
+f,Chol,Chol pathway enrichment,1,GOBP_CELL_JUNCTION_ORGANIZATION,Cell junction organization,8.35E-13,0.0451,NA
+f,Chol,Chol pathway enrichment,2,GOBP_REGULATION_OF_CELL_CELL_ADHESION,Regulation of cell cell adhesion,1.88E-06,NA,NA
+f,Chol,Chol pathway enrichment,3,GOBP_TUBE_DEVELOPMENT,Tube development,2.31E-06,NA,NA
+f,Chol,Chol pathway enrichment,4,GOBP_CELL_MOTILITY,Cell motility,2.11E-16,NA,0.0116
+f,Chol,Chol pathway enrichment,5,GOBP_WNT_SIGNALING_PATHWAY,Wnt signaling pathway,NA,0.0102,NA
+f,Chol,Chol pathway enrichment,6,GOBP_SMALL_GTPASE_MEDIATED_SIGNAL_TRANSDUCTION,Small gtpase mediated signal transduction,NA,0.00171,NA
+f,Chol,Chol pathway enrichment,7,GOBP_VESICLE_MEDIATED_TRANSPORT,Vesicle mediated transport,4.99E-07,0.00171,NA
+f,Chol,Chol pathway enrichment,8,GOBP_MITOTIC_CELL_CYCLE,Mitotic cell cycle,6.15E-08,NA,1.38E-09
+f,Chol,Chol pathway enrichment,9,GOBP_CHROMOSOME_SEGREGATION,Chromosome segregation,NA,NA,3.83E-10
+f,Chol,Chol pathway enrichment,10,GOBP_SPINDLE_ORGANIZATION,Spindle organization,NA,NA,2.33E-05

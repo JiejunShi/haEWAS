@@ -1,0 +1,16 @@
+Dataset,Disease,Tissue,Cell_type,Loci_category,Hyper_DMC_count,Hypo_DMC_count
+GSE157341,Liver Cancer,liver,Chol,haEWAS-specific,433,541
+GSE157341,Liver Cancer,liver,Chol,Common,113,182
+GSE157341,Liver Cancer,liver,Chol,EWAS-specific,71,112
+GSE157341,Liver Cancer,liver,EC,haEWAS-specific,32,25
+GSE157341,Liver Cancer,liver,EC,Common,12,1
+GSE157341,Liver Cancer,liver,EC,EWAS-specific,16,9
+GSE157341,Liver Cancer,liver,Hep,haEWAS-specific,578,496
+GSE157341,Liver Cancer,liver,Hep,Common,272,89
+GSE157341,Liver Cancer,liver,Hep,EWAS-specific,182,101
+GSE157341,Liver Cancer,liver,Kup,haEWAS-specific,12,13
+GSE157341,Liver Cancer,liver,Kup,Common,1,0
+GSE157341,Liver Cancer,liver,Kup,EWAS-specific,2,0
+GSE157341,Liver Cancer,liver,Lym,haEWAS-specific,215,40
+GSE157341,Liver Cancer,liver,Lym,Common,14,0
+GSE157341,Liver Cancer,liver,Lym,EWAS-specific,31,43
