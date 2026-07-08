@@ -14,6 +14,7 @@ All code-generated figure panels are organized by figure-specific directories, e
 
 ```text
 .
+├── Phenotype_descriptions.xlsx   # Summary and brief descriptions of the 46 human phenotypes analysed by EWAS and haEWAS.
 ├── Reproduction_figures.ipynb    # Main notebook containing all executable reproduction code
 ├── arial.ttf                     # Font file used for consistent figure rendering
 ├── Fig2/                         # Figure 2 source data and exported panels
@@ -240,10 +241,6 @@ Figure 1 and Supplementary Figure 5 are conceptual schematics created with BioRe
 ## Data Availability
 
 Panel-level source data required for figure reproduction are provided under the corresponding `source_data/` directories. These files are intended to support transparent regeneration of the exported figure panels. Access to original cohort-level methylation or clinical datasets may be subject to the policies of the respective data providers and is not necessarily redistributed in this repository.
-
-## Citation
-
-If you use this repository, please cite the associated haEWAS manuscript and this GitHub repository. A full citation can be added here after publication.
 
 ## Contact
 
