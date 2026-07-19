@@ -18,7 +18,7 @@ Allergy,Binary,Immune system disease,143,15,47,-1.605282485100752
 Arthritis,Binary,Immune system disease,114,57,182,0.6749046260339546
 Inflammatory Bowel Disease,Binary,Immune system disease,448,264,673,0.587107772552713
 Psoriasis,Binary,Immune system disease,27,11,95,1.8149681061674794
-Systemic Lupus Erythematosus,Binary,Immune system disease,100,68,3338,5.060912049587874
+Systemic Lupus Erythematosus,Binary,Immune system disease,110,58,677,2.621652310050337
 Ulcerative Colitis,Binary,Immune system disease,9,74,2708,8.233087022132684
 SLEDAI Score,Continuous,Immune system disease,81,40,1782,4.459431618637297
 COVID19,Binary,Infection,210,327,1513,2.8489507545506148

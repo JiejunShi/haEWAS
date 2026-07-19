@@ -1,31 +1,31 @@
-Panel,Annotation_context,Region,Loci_category,log2_OR,P_value
-d,CpG island context,OpenSea,EWAS-specific,0.634242467,1.59E-17
-d,CpG island context,OpenSea,Common,1.16683918,1.94E-11
-d,CpG island context,OpenSea,haEWAS-specific,0.198908541,7.69E-05
-d,CpG island context,Shelf,EWAS-specific,0.021900102,0.862292985
-d,CpG island context,Shelf,Common,-0.017680023,1
-d,CpG island context,Shelf,haEWAS-specific,-0.372412311,2.96E-05
-d,CpG island context,Shore,EWAS-specific,-0.159973021,0.070582048
-d,CpG island context,Shore,Common,-0.528462208,0.014828524
-d,CpG island context,Shore,haEWAS-specific,-0.312205212,1.21E-07
-d,CpG island context,Island,EWAS-specific,-0.645089823,3.46E-14
-d,CpG island context,Island,Common,-1.060233752,5.17E-07
-d,CpG island context,Island,haEWAS-specific,0.171691774,0.000991624
-d,Gene region,3'UTR,EWAS-specific,0.235236661,0.219953508
-d,Gene region,3'UTR,Common,-0.097432665,0.871706723
-d,Gene region,3'UTR,haEWAS-specific,-0.383523663,0.007865949
-d,Gene region,Gene body,EWAS-specific,0.6387927,7.67E-14
-d,Gene region,Gene body,Common,0.736500068,0.000268107
-d,Gene region,Gene body,haEWAS-specific,0.060075502,0.303338625
-d,Gene region,1stExon,EWAS-specific,-0.550782615,0.060976975
-d,Gene region,1stExon,Common,0.384745204,0.524907962
-d,Gene region,1stExon,haEWAS-specific,0.461875086,0.003298814
-d,Gene region,5'UTR,EWAS-specific,-0.127886461,0.319708519
-d,Gene region,5'UTR,Common,0.227220207,0.47142362
-d,Gene region,5'UTR,haEWAS-specific,0.295322425,0.000243732
-d,Gene region,TSS1500,EWAS-specific,-0.429984985,0.000100823
-d,Gene region,TSS1500,Common,-0.534311453,0.049228178
-d,Gene region,TSS1500,haEWAS-specific,-0.282617234,9.87E-05
-d,Gene region,TSS200,EWAS-specific,-0.619671373,1.01E-06
-d,Gene region,TSS200,Common,-1.185553246,0.000442353
-d,Gene region,TSS200,haEWAS-specific,-0.029840148,0.708976844
+Annotation_context,Region,Loci_category,log2_OR,P_value
+CpG island context,OpenSea,EWAS-specific,-0.9693249134635354,0.008864005639550091
+CpG island context,OpenSea,Common,0.38866852099092547,0.38858097479970083
+CpG island context,OpenSea,haEWAS-specific,0.15870873932054874,0.1749810904186078
+CpG island context,Shelf,EWAS-specific,-0.32120009182985354,0.7041136857290599
+CpG island context,Shelf,Common,-0.6952790214652333,0.3649539054401448
+CpG island context,Shelf,haEWAS-specific,0.4504227143466386,0.009093475989519557
+CpG island context,Shore,EWAS-specific,0.9087060770643564,0.010346733592292144
+CpG island context,Shore,Common,0.40987567302723893,0.4134292586917608
+CpG island context,Shore,haEWAS-specific,0.7132254654011507,5.394040695272083e-09
+CpG island context,Island,EWAS-specific,0.29948214055462125,0.4345368105796835
+CpG island context,Island,Common,-0.5237277411677473,0.34131085425646035
+CpG island context,Island,haEWAS-specific,-1.596486966283468,2.7926296387217912e-24
+Gene region,3'UTR,EWAS-specific,0.04458143024528846,1.0
+Gene region,3'UTR,Common,-0.8402489767194796,0.518927327505512
+Gene region,3'UTR,haEWAS-specific,0.5996681885277942,0.01911178843110943
+Gene region,Gene body,EWAS-specific,-0.24444662569512104,0.5192660604303109
+Gene region,Gene body,Common,0.20790933124679428,0.6580147711344161
+Gene region,Gene body,haEWAS-specific,0.16551307473266486,0.20931529007958688
+Gene region,1stExon,EWAS-specific,1.1347236758263006,0.22007217640437604
+Gene region,1stExon,Common,-1.3668749094800468,0.6374893596358271
+Gene region,1stExon,haEWAS-specific,-0.1308508737569361,0.7831304147480153
+Gene region,5'UTR,EWAS-specific,0.12749781281826172,0.848040871471199
+Gene region,5'UTR,Common,-0.16138838989948548,0.8278462945371619
+Gene region,5'UTR,haEWAS-specific,-0.02083575519018194,0.9470201259737082
+Gene region,TSS1500,EWAS-specific,0.13673012200012594,0.87285328346287
+Gene region,TSS1500,Common,0.6405979404661136,0.2015995350005639
+Gene region,TSS1500,haEWAS-specific,0.22688924196292898,0.15154417212858723
+Gene region,TSS200,EWAS-specific,0.18193594804036592,0.8516840901368433
+Gene region,TSS200,Common,-0.2951965259162646,0.6734686522675531
+Gene region,TSS200,haEWAS-specific,-1.199404212233809,1.6158922266580865e-07

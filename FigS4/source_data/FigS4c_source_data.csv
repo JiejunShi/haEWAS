@@ -1,13 +1,14 @@
-Panel,Loci_category,GO_term,P_value,Minus_log10P,DE_genes,Plot_order_top_to_bottom
-c,haEWAS-specific,Multicellular organism development,6.911953175959681e-11,10.160399212585183,720,1
-c,haEWAS-specific,Anatomical structure morphogenesis,2.045256892885941e-08,7.689252135013188,452,2
-c,haEWAS-specific,Cell differentiation,4.613858289061817e-08,7.3359357486150145,635,3
-c,haEWAS-specific,Cell fate commitment,1.0566174617780064e-05,4.976082216390733,72,4
-c,Common,Glycosaminoglycan biosynthetic process,0.00013493457380318,3.869876758347902,7,5
-c,Common,Glycosaminoglycan metabolic process,0.0008433325859026105,3.0740011184511755,7,6
-c,Common,Proteoglycan metabolic process,0.0019331377566648,2.7137371967589985,6,7
-c,Common,Regulation of extracellular matrix assembly,0.0072687817474087,2.1385383710821726,3,8
-c,EWAS-specific,Antigen processing and presentation,8.769062423966199e-05,4.057046838317523,22,9
-c,EWAS-specific,Immune response,8.874129413092882e-05,4.051874242175435,141,10
-c,EWAS-specific,Regulation of toll-like receptor 4 signaling pathway,0.0011275424528597,2.947867097613532,8,11
-c,EWAS-specific,Adaptive immune response,0.0012213917326832,2.913145023968627,47,12
+Loci_category,GO_term,P_value,FDR,Minus_log10FDR,Overlap_genes
+haEWAS-specific,Inflammatory response,4.72e-12,6.24e-10,9.204815410317575,37
+haEWAS-specific,Endocytosis,9.14e-12,1.17e-09,8.931814138253838,31
+haEWAS-specific,Cytoplasmic pattern-recognition receptor signaling pathway,1.39e-11,1.67e-09,8.777283528852417,17
+haEWAS-specific,Myeloid cell differentiation,1.94e-11,2.25e-09,8.647817481888637,25
+haEWAS-specific,Lymphocyte activation,3.58e-11,3.85e-09,8.414539270491499,33
+Common,Type I interferon-mediated signaling pathway,2.24e-08,8.44e-06,5.073657553374345,5
+Common,Regulation of immune system process,6.09e-08,2.09e-05,4.679853713888946,12
+Common,Protein modification by small protein conjugation,1.48e-05,0.00302,2.5199930570428495,7
+Common,Cytokine production,3.32e-05,0.00595,2.2254830342714502,7
+EWAS-specific,Antigen processing and presentation,1.99e-11,2.87e-08,7.542118103266008,9
+EWAS-specific,Negative regulation of innate immune response,1.55e-07,4.48e-05,4.348721986001856,6
+EWAS-specific,Response to type II interferon,1.38e-06,0.000273,3.563837352959244,6
+EWAS-specific,T-cell activation,0.000151,0.0121,1.91721462968355,8

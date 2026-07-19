@@ -14,7 +14,6 @@ All code-generated figure panels are organized by figure-specific directories, e
 
 ```text
 .
-├── Phenotype_descriptions.xlsx   # Summary and brief descriptions of the 46 human phenotypes analysed by EWAS and haEWAS.
 ├── Reproduction_figures.ipynb    # Main notebook containing all executable reproduction code
 ├── arial.ttf                     # Font file used for consistent figure rendering
 ├── Fig2/                         # Figure 2 source data and exported panels
@@ -80,15 +79,15 @@ The notebook is intended to reproduce code-generated figure panels from the sour
 | --- | --- | --- | --- |
 | Figure 1 | Conceptual haEWAS workflow schematic created with BioRender | Not code-generated | Not code-generated |
 | Figure 2 | Discovery landscape across curated phenotypes | `Fig2/source_data/` | `Fig2/figures/` |
-| Figure 3 | Breast cancer discovery, signal distribution, and prediction | `Fig3/source_data/` | `Fig3/figures/` |
-| Figure 4 | Braak-stage functional annotation and eQTM analyses | `Fig4/source_data/` | `Fig4/figures/` |
+| Figure 3 | SLE-associated loci and cross-cohort disease-status classification | `Fig3/source_data/` | `Fig3/figures/` |
+| Figure 4 | Braak-stage functional annotation, eQTM analysis, and peripheral-blood validation | `Fig4/source_data/` | `Fig4/figures/` |
 | Figure 5 | Cross-cancer haEWAS signals and prognostic utility | `Fig5/source_data/` | `Fig5/figures/` |
 | Figure 6 | Cell-type-specific liver cancer methylation patterns | `Fig6/source_data/` | `Fig6/figures/` |
 | Supplementary Figure 1 | Array-WGBS validation of heterogeneity reconstruction | `FigS1/source_data/` | `FigS1/figures/` |
 | Supplementary Figure 2 | Distributional properties of methylation metrics | `FigS2/source_data/` | `FigS2/figures/` |
 | Supplementary Figure 3 | Phenotype-level EWAS and haEWAS discovery overview | `FigS3/source_data/` | `FigS3/figures/` |
-| Supplementary Figure 4 | Breast cancer calibration and annotation analyses | `FigS4/source_data/` | `FigS4/figures/` |
-| Supplementary Figure 5 | MRS and LOCO prediction schematic created with BioRender | Not code-generated | Not code-generated |
+| Supplementary Figure 4 | SLE meta-analysis calibration and functional and genomic annotation | `FigS4/source_data/` | `FigS4/figures/` |
+| Supplementary Figure 5 | SLE MRS discovery and independent external-validation workflow created with BioRender | Not code-generated | Not code-generated |
 | Supplementary Figure 6 | Braak-stage reproduction and calibration analyses | `FigS6/source_data/` | `FigS6/figures/` |
 | Supplementary Figure 7 | TCGA survival prediction using methylation-risk models | `FigS7/source_data/` | `FigS7/figures/` |
 
@@ -114,33 +113,35 @@ Together, Figure 2 shows that haEWAS identifies a complementary set of phenotype
 
 ### Figure 3 Reproduction
 
-Figure 3 evaluates haEWAS in breast cancer by comparing discovery overlap, genome-wide signal distribution, and out-of-cohort prediction performance between conventional EWAS and haEWAS.
+Figure 3 evaluates haEWAS in systemic lupus erythematosus (SLE) by comparing association discovery, genome-wide signal distributions, and cross-cohort disease-status classification between EWAS and haEWAS.
 
-Fig. 3a shows the overlap between significant EWAS loci and significant haEWAS loci in breast cancer. CpGs are grouped as EWAS-specific, haEWAS-specific, or common signals, with haEWAS defined as the union of CHALM and CAMDA significant CpGs.
+Fig. 3a shows the overlap between significant EWAS and haEWAS loci identified by the SLE disease-status meta-analysis. Loci are classified as EWAS-specific, haEWAS-specific, or common, with significant haEWAS loci defined as the union of loci identified using CHALM and CAMDA.
 
-Fig. 3b shows a signed Manhattan plot of breast cancer association signals across autosomes. The y-axis shows signed -log10(P), where the sign reflects the direction of the meta-analysis effect estimate. Significant CpGs are colored by discovery group: EWAS-specific, haEWAS-specific, or common.
+Fig. 3b shows a signed Manhattan plot of SLE-associated signals across the autosomes. The y-axis represents signed $-\log_{10}(P)$, with the sign determined by the direction of the meta-analysis effect estimate. Significant loci are colored according to their discovery category.
 
-Fig. 3c compares methylation risk score distributions between normal and breast cancer samples across held-out cohorts. Density curves are shown separately for EWAS and haEWAS scores, allowing visual comparison of disease-control separation within each cohort.
+Fig. 3c compares EWAS- and haEWAS-derived methylation risk score (MRS) distributions between SLE and control samples in three independent external-validation cohorts. Density overlap and Wilcoxon rank-sum test results summarize the separation between disease groups within each cohort.
 
-Fig. 3d compares Cohen's d effect sizes between EWAS and haEWAS methylation risk scores across paired held-out cohorts. Lines connect paired cohort-level estimates, showing whether haEWAS improves group separation relative to EWAS.
+Fig. 3d shows the difference in Cohen's $d$ between haEWAS- and EWAS-derived MRSs in each external-validation cohort. Squares represent cohort-specific differences, horizontal error bars indicate 95% confidence intervals obtained from 500 case-control-stratified bootstrap iterations, and the diamond represents the equally weighted mean difference across cohorts. Positive values indicate greater SLE-control separation for haEWAS.
 
-Fig. 3e-h show ROC curves for held-out breast cancer cohorts. Each panel compares EWAS and haEWAS prediction performance using the corresponding z-normalized methylation risk scores. AUC values summarize classification performance for each method in each cohort.
+Fig. 3e-g show ROC curves for SLE disease-status classification in the three external-validation cohorts. Each panel compares the performance of the EWAS and haEWAS models, with AUC values summarizing their classification performance.
 
-Together, Figure 3 demonstrates that haEWAS identifies breast cancer-associated methylation signals that complement conventional EWAS and can improve disease-control separation and prediction in held-out cohorts.
+Together, Figure 3 shows that haEWAS identifies SLE-associated methylation signals that complement those detected by EWAS and improves SLE-control separation and classification across independent cohorts.
 
 ### Figure 4 Reproduction
 
-Figure 4 characterizes the biological and regulatory relevance of haEWAS-associated loci in Braak stage analysis. The figure compares EWAS-specific, haEWAS-specific, and common loci using functional enrichment, genomic annotation enrichment, and eQTM analyses.
+Figure 4 characterizes the biological, regulatory, and cross-tissue relevance of haEWAS-associated loci in Braak stage analysis. The figure compares EWAS-specific, haEWAS-specific, and common loci using functional enrichment, genomic annotation enrichment, eQTM analyses, and peripheral-blood evaluation.
 
 Fig. 4a shows GO biological process enrichment terms for EWAS-specific, common, and haEWAS-specific loci.
 
-Fig. 4b shows enrichment of genomic locations and CpG island contexts across loci categories. Bars represent log2(odds ratio), with positive values indicating enrichment and negative values indicating depletion. Asterisks denote enrichment significance.
+Fig. 4b shows enrichment of genomic locations and CpG-island contexts across loci categories. Bars represent $\log_2(\text{odds ratio})$, with positive values indicating enrichment and negative values indicating depletion. Asterisks denote statistical significance.
 
-Fig. 4c summarizes significant eQTM pairs detected by EWAS and haEWAS. The Venn diagram compares EWAS-specific, common, and haEWAS-specific significant eQTM pairs, and the boxplot compares absolute eQTM effect sizes for common eQTM pairs between average methylation and methylation heterogeneity.
+Fig. 4c summarizes significant eQTM pairs detected using average methylation and methylation heterogeneity. The Venn diagram compares method-specific and common eQTM pairs, and the boxplot compares their absolute effect sizes among common eQTM pairs.
 
-Fig. 4d highlights representative rescued eQTM pairs in selected biological pathways. Each row shows the change in eQTM significance from EWAS to haEWAS using -log10(FDR), with arrows indicating improved significance under haEWAS.
+Fig. 4d highlights representative methylation heterogeneity-specific eQTM pairs in selected biological pathways. Each row shows the difference in eQTM significance between average methylation and methylation heterogeneity using $-\log_{10}(\mathrm{FDR})$.
 
-Together, Figure 4 shows that haEWAS-specific loci are enriched for biologically meaningful functional annotations and can reveal regulatory eQTM signals that are weaker or not significant under conventional EWAS.
+Fig. 4e compares Z-normalized methylation heterogeneity levels between Braak 0-IV and Braak V-VI blood samples for five representative loci mapped to or near *HAS1*, *P2RY2*, *UNC13A*, *SCN2B*, and *MPO*. These loci were associated with Braak stage in blood and showed effect directions concordant with the brain meta-analysis.
+
+Together, Figure 4 shows that haEWAS identifies biologically and transcriptionally relevant Braak stage-associated loci, reveals eQTM signals that are weaker or not significant under conventional EWAS, and detects a subset of brain-supported methylation signals in peripheral blood.
 
 ### Figure 5 Reproduction
 
@@ -198,21 +199,21 @@ Asterisks mark phenotypes in which the haEWAS-specific fraction exceeds the EWAS
 
 ### Supplementary Figure 4 Reproduction
 
-Supplementary Figure 4 evaluates the statistical calibration and biological annotation patterns of EWAS and haEWAS results in breast cancer.
+Supplementary Figure 4 evaluates the statistical calibration and biological annotation patterns of EWAS and haEWAS results in systemic lupus erythematosus (SLE).
 
-Fig. S4a compares genomic inflation factors across individual breast cancer cohorts. Each point represents the inflation factor lambda for one cohort and one analysis method: EWAS, haEWAS(CAMDA), or haEWAS(CHALM). The vertical reference line marks lambda = 1, indicating the expected value under well-calibrated test statistics.
+Fig. S4a compares genomic inflation factors across the five SLE whole-blood cohorts. Each point represents the inflation factor $\lambda$ for one cohort and one analysis method: EWAS, haEWAS(CAMDA), or haEWAS(CHALM). The vertical reference line marks $\lambda = 1$.
 
-Fig. S4b shows QQ plots for the breast cancer meta-analysis. Expected and observed -log10(P) values are shown for EWAS, haEWAS(CAMDA), and haEWAS(CHALM), allowing direct comparison of genome-wide calibration and association signal enrichment.
+Fig. S4b shows QQ plots for the SLE disease-status meta-analysis. Expected and observed $-\log_{10}(P)$ values are shown for EWAS, haEWAS(CAMDA), and haEWAS(CHALM), allowing comparison of genome-wide statistical calibration and association signals.
 
-Fig. S4c shows GO biological process enrichment for EWAS-specific, common, and haEWAS-specific loci. The x-axis shows -log10(P), point size indicates the number of differentially enriched genes, and colors indicate loci categories.
+Fig. S4c shows GO biological process enrichment for EWAS-specific, common, and haEWAS-specific loci. The x-axis shows $-\log_{10}(\mathrm{FDR})$, point size indicates the number of genes contributing to each term, and colors indicate loci categories.
 
-Fig. S4d summarizes genomic location enrichment across loci categories. Bars show log2(odds ratio) values for gene regions and CpG island contexts, with positive values indicating enrichment and negative values indicating depletion.
+Fig. S4d summarizes genomic location enrichment across loci categories. Bars show $\log_2(\text{odds ratio})$ values for gene regions and CpG-island contexts, with positive values indicating enrichment and negative values indicating depletion. Asterisks denote statistical significance.
 
-Together, Supplementary Figure 4 shows that haEWAS maintains acceptable statistical calibration while identifying breast cancer-associated loci with distinct functional and genomic annotation patterns.
+Together, Supplementary Figure 4 shows that EWAS and haEWAS produce broadly calibrated association statistics while identifying SLE-associated loci with distinct functional and genomic annotation patterns.
 
 ### Supplementary Figure 5 Reproduction
 
-Supplementary Figure 5 is a conceptual schematic created with BioRender. The figure illustrates the methylation risk score (MRS) prediction workflow and the leave-one-cohort-out (LOCO) validation strategy used for disease-status prediction. It summarizes how cohort-level training and held-out validation were organized to evaluate the predictive performance of EWAS- and haEWAS-derived methylation signatures.
+Supplementary Figure 5 is a conceptual schematic created with BioRender. The figure illustrates the discovery and external-validation workflow used to construct and evaluate EWAS- and haEWAS-derived multi-locus methylation risk scores (MRSs) for SLE disease-status classification.
 
 This conceptual figure was created manually and is not generated by the analysis notebook.
 
@@ -234,9 +235,6 @@ Together, Supplementary Figure 6 shows that haEWAS recovers loci overlapping wit
 
 Supplementary Figure 7 compares survival prediction performance across TCGA cancer projects using methylation-risk models based on average methylation (m), methylation heterogeneity (hm), and the combined feature set (m + hm). Curves show C-index values across increasing numbers of top-ranked features, allowing the predictive contribution of heterogeneity-derived features to be evaluated across cancers.
 
-## Notes on Conceptual Figures
-
-Figure 1 and Supplementary Figure 5 are conceptual schematics created with BioRender. They are included in the manuscript to explain the haEWAS framework and validation design, but they are not generated by code. The code-generated analyses and panels begin with Figure 2 and Supplementary Figure 1.
 
 ## Data Availability
 
