@@ -142,9 +142,6 @@ Supplementary Figure 6 summarizes Braak-stage locus discovery and statistical ca
 
 Supplementary Figure 7 compares TCGA survival prediction using average methylation, methylation heterogeneity, and their integrated feature set.
 
-## Statistical Notation
-
-Statistical *P* values are written as `$P$` throughout the notebook and figure annotations. False discovery rate is abbreviated as FDR, and area under the receiver operating characteristic curve is abbreviated as AUC.
 
 ## Data Availability
 
