@@ -1,0 +1,11 @@
+Type,Combination,EWAS,CAMDA,CHALM,Count
+Intersection,EWAS + CHALM,1,0,1,1366
+Intersection,EWAS + CAMDA + CHALM,1,1,1,1296
+Intersection,EWAS only,1,0,0,619
+Intersection,CAMDA only,0,1,0,175
+Intersection,CHALM only,0,0,1,161
+Intersection,EWAS + CAMDA,1,1,0,157
+Intersection,CAMDA + CHALM,0,1,1,33
+SetSize,EWAS,1,0,0,3438
+SetSize,CAMDA,0,1,0,1661
+SetSize,CHALM,0,0,1,2856

@@ -1,0 +1,47 @@
+Phenotype,EWAS-specific loci,HaEWAS-specific loci
+Huntington's Disease,8832,6657
+Parkinson's Disease,1690,1489
+Sporadic Creutzfeldt-Jakob Disease,211,10
+Schizophrenia,75,2283
+First Episode Psychosis,41,86
+Intellectual Disability,55,85
+Ulcerative Colitis,9,2147
+Inflammatory Bowel Disease,443,611
+Arthritis,118,137
+Systemic Lupus Erythematosus,106,564
+Allergy,142,27
+Psoriasis,27,77
+COVID19,196,1204
+HCV Status,69,101
+HIV,44,98
+Idiopathic Pulmonary Fibrosis,22,1751
+Asthma,2,10
+Liver Cancer,13650,654
+Breast Cancer,1859,3084
+Colorectal Cancer,536,1511
+Diabetes,173,74
+Gestational Diabetes Mellitus,10,16
+Preeclampsia,4,83
+Parity,90,22
+Birth Mode,8,7
+Assisted Reproductive Technologies(ART),10,27
+Edematous Severe Acute Malnutrition,113,28
+Alcohol Use in Pregnancy,572,1022
+Smoking Status,70,22
+Adolescent Victimization,72,15
+Zygosity,161,145
+Atherosclerosis,0,2
+Braak Stage,619,369
+Behavior Score Index,0,49
+SLEDAI Score,58,1408
+Viral Load(log10),122,208
+PSA Amount,18,0
+HOMA-IR,9,99
+Birth Weight(Kg),132,528
+Waist Circumference(CM),0,81
+BMI,8,0
+Gestational Age(Weeks),1447,3739
+Postmenstrual Age(Weeks),166,2311
+Total PBB Exposure,213,7887
+Chronic Stress,550,1992
+War Trauma,180,48

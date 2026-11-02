@@ -1,0 +1,11 @@
+Measure,EWAS,haEWAS (CAMDA),haEWAS (CHALM),Count
+EWAS only,1,0,0,106
+haEWAS (CAMDA) only,0,1,0,451
+haEWAS (CHALM) only,0,0,1,101
+EWAS + haEWAS (CAMDA),1,1,0,10
+EWAS + haEWAS (CHALM),1,0,1,27
+haEWAS (CAMDA) + haEWAS (CHALM),0,1,1,12
+All three,1,1,1,25
+EWAS set size,1,0,0,168
+haEWAS (CAMDA) set size,0,1,0,498
+haEWAS (CHALM) set size,0,0,1,165

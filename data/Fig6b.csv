@@ -1,0 +1,13 @@
+Pattern,Count
+Hep,955
+Chol,878
+Lym,219
+Hep;Chol,77
+EC,37
+Hep;Lym,35
+Kup,24
+Hep;EC,8
+Chol;EC,4
+Chol;Lym,3
+Hep;Chol;EC,2
+Hep;EC;Kup,1

@@ -1,0 +1,47 @@
+Trait,Category,CAMDA,CHALM,Shared,haEWAS-specific,haEWAS (CAMDA),haEWAS (CHALM),EWAS
+Huntington's Disease,Neurological,3355,2722,580,6657,7136,6228,13467
+Parkinson's Disease,Neurological,592,833,64,1489,920,2307,3179
+Braak Stage,Neurological,175,161,33,369,1661,2856,3438
+Sporadic Creutzfeldt-Jakob Disease,Neurological,3,5,2,10,63,72,300
+Behavior Score Index,Psychiatric,17,25,7,49,24,32,0
+Schizophrenia,Psychiatric,2101,160,22,2283,2127,209,102
+Intellectual Disability,Psychiatric,45,36,4,85,59,46,67
+First Episode Psychosis,Psychiatric,65,8,13,86,109,112,140
+Ulcerative Colitis,Immune system disease,1727,328,92,2147,1865,487,83
+SLEDAI Score,Immune system disease,1078,313,17,1408,1100,392,121
+Systemic Lupus Erythematosus,Immune system disease,451,101,12,564,498,165,168
+Psoriasis,Immune system disease,37,28,12,77,56,51,38
+Inflammatory Bowel Disease,Immune system disease,386,187,38,611,584,418,712
+Arthritis,Immune system disease,90,39,8,137,121,90,171
+Allergy,Immune system disease,9,18,0,27,15,28,158
+COVID19,Infection,809,270,125,1204,1092,720,537
+HIV,Infection,71,23,4,98,84,39,60
+HCV Status,Infection,24,50,27,101,124,189,189
+Viral Load(log10),Infection,100,74,34,208,378,468,513
+Idiopathic Pulmonary Fibrosis,Respiratory,1077,475,199,1751,1323,745,101
+Asthma,Respiratory,3,7,0,10,3,7,2
+Colorectal Cancer,Cancer,951,496,64,1511,1115,664,711
+Breast Cancer,Cancer,2290,657,137,3084,2608,961,2176
+Liver Cancer,Cancer,507,119,28,654,1136,191,14274
+PSA Amount,Cancer,0,0,0,0,0,0,18
+HOMA-IR,Metabolic disease,50,28,21,99,75,52,13
+Gestational Diabetes Mellitus,Metabolic disease,14,2,0,16,21,13,24
+Diabetes,Metabolic disease,38,29,7,74,155,190,357
+Preeclampsia,Cardiovascular disease,41,32,10,83,59,54,17
+Atherosclerosis,Cardiovascular disease,0,2,0,2,3,6,4
+Waist Circumference(CM),Body weights and measures,42,36,3,81,45,39,0
+Birth Weight(Kg),Body weights and measures,254,204,70,528,471,550,451
+BMI,Body weights and measures,0,0,0,0,1,1,9
+Postmenstrual Age(Weeks),Reproduction,1013,771,527,2311,1700,1610,496
+Assisted Reproductive Technologies(ART),Reproduction,19,6,2,27,24,14,16
+Gestational Age(Weeks),Reproduction,1792,1582,365,3739,3166,4284,4064
+Birth Mode,Reproduction,5,0,2,7,16,13,19
+Parity,Reproduction,8,13,1,22,36,77,159
+Edematous Severe Acute Malnutrition,Nutritional,11,16,1,28,73,174,279
+Total PBB Exposure,Environment,5348,1869,670,7887,6122,2722,415
+Chronic Stress,Environment,1382,475,135,1992,1721,1098,1089
+Alcohol Use in Pregnancy,Environment,578,340,104,1022,836,733,908
+Smoking Status,Environment,12,8,2,22,19,35,97
+War Trauma,Environment,14,28,6,48,54,147,297
+Adolescent Victimization,Environment,3,9,3,15,16,46,107
+Zygosity,Other trait,56,66,23,145,301,332,450

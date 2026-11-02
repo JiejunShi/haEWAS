@@ -1,0 +1,47 @@
+Trait,Trait_category,CaseN,ControlN,SampleN,EWAS-specific,Common,haEWAS-specific,Total_Discovery
+Huntington's Disease (215 vs 135),Neurological,215,135,350,8832,4635,6657,20124
+"Parkinson's Disease (1,629 vs 1,424)",Neurological,1629,1424,3053,1690,1489,1489,4668
+"Braak Stage (n=1,030)",Neurological,,,1030,619,2819,369,3807
+Sporadic Creutzfeldt-Jakob Disease (114 vs 105),Neurological,114,105,219,211,89,10,310
+Behavior Score Index (n=536),Psychiatric,,,536,0,0,49,49
+"Schizophrenia (2,069 vs 2,046)",Psychiatric,2069,2046,4115,75,27,2283,2385
+Intellectual Disability (570 vs 150),Psychiatric,570,150,720,55,12,85,152
+First Episode Psychosis (720 vs 724),Psychiatric,720,724,1444,41,99,86,226
+Ulcerative Colitis (284 vs 85),Immune system disease,284,85,369,9,74,2147,2230
+SLEDAI Score (n=440),Immune system disease,,,440,58,63,1408,1529
+Systemic Lupus Erythematosus (447 vs 381),Immune system disease,447,381,828,106,62,564,732
+Psoriasis (155 vs 62),Immune system disease,155,62,217,27,11,77,115
+Inflammatory Bowel Disease (688 vs 338),Immune system disease,688,338,1026,443,269,611,1323
+Arthritis (958 vs 696),Immune system disease,958,696,1654,118,53,137,308
+Allergy (194 vs 244),Immune system disease,194,244,438,142,16,27,185
+COVID19 (575 vs 127),Infection,575,127,702,196,341,1204,1741
+HIV (549 vs 263),Infection,549,263,812,44,16,98,158
+HCV Status (316 vs 475),Infection,316,475,791,69,120,101,290
+Viral Load(log10) (n=588),Infection,,,588,122,391,208,721
+Idiopathic Pulmonary Fibrosis (345 vs 202),Respiratory,345,202,547,22,79,1751,1852
+Asthma (251 vs 188),Respiratory,251,188,439,2,0,10,12
+Colorectal Cancer (548 vs 300),Cancer,548,300,848,536,175,1511,2222
+"Breast Cancer (1,399 vs 481)",Cancer,1399,481,1880,1859,317,3084,5260
+"Liver Cancer (1,077 vs 282)",Cancer,1077,282,1359,13650,624,654,14928
+PSA Amount (n=181),Cancer,,,181,18,0,0,18
+HOMA-IR (n=332),Metabolic disease,,,332,9,4,99,112
+Gestational Diabetes Mellitus (263 vs 496),Metabolic disease,263,496,759,10,14,16,40
+Diabetes (259 vs 260),Metabolic disease,259,260,519,173,184,74,431
+Preeclampsia (63 vs 182),Cardiovascular disease,63,182,245,4,13,83,100
+Atherosclerosis (255 vs 136),Cardiovascular disease,255,136,391,0,4,2,6
+Waist Circumference(CM) (n=474),Body weights and measures,,,474,0,0,81,81
+"Birth Weight(Kg) (n=1,833)",Body weights and measures,,,1833,132,319,528,979
+"BMI (n=1,668)",Body weights and measures,,,1668,8,1,0,9
+Postmenstrual Age(Weeks) (n=536),Reproduction,,,536,166,330,2311,2807
+"Assisted Reproductive Technologies(ART) (591 vs 1,414)",Reproduction,591,1414,2005,10,6,27,43
+"Gestational Age(Weeks) (n=1,596)",Reproduction,,,1596,1447,2617,3739,7803
+Birth Mode (175 vs 146),Reproduction,175,146,321,8,11,7,26
+Parity (247 vs 408),Reproduction,247,408,655,90,69,22,181
+Edematous Severe Acute Malnutrition (195 vs 179),Nutritional,195,179,374,113,166,28,307
+Total PBB Exposure (n=673),Environment,,,673,213,202,7887,8302
+Chronic Stress (n=520),Environment,,,520,550,539,1992,3081
+Alcohol Use in Pregnancy (63 vs 442),Environment,63,442,505,572,336,1022,1930
+Smoking Status (353 vs 493),Environment,353,493,846,70,27,22,119
+War Trauma (n=520),Environment,,,520,180,117,48,345
+Adolescent Victimization (472 vs 472),Environment,472,472,944,72,35,15,122
+Zygosity (267 vs 826),Other trait,267,826,1093,161,289,145,595

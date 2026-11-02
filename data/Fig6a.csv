@@ -1,0 +1,16 @@
+CellType,Category,Positive,Negative
+Hep,EWAS-specific,185,109
+Hep,Common,269,81
+Hep,haEWAS-specific,563,515
+Chol,EWAS-specific,78,117
+Chol,Common,106,177
+Chol,haEWAS-specific,434,530
+EC,EWAS-specific,17,9
+EC,Common,11,1
+EC,haEWAS-specific,31,21
+Kup,EWAS-specific,2,0
+Kup,Common,1,0
+Kup,haEWAS-specific,12,13
+Lym,EWAS-specific,31,43
+Lym,Common,14,0
+Lym,haEWAS-specific,206,51

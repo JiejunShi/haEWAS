@@ -1,0 +1,13 @@
+Category,Term,Log_fdr,Overlap_genes
+EWAS-specific,Leukocyte migration,5.543633966870957,20
+EWAS-specific,Regulation of t cell activation,6.694648630553377,22
+EWAS-specific,Cell-cell adhesion,10.522878745280336,43
+EWAS-specific,Cell adhesion,12.33348201944512,59
+Common,Lymphocyte activation,13.896196279044045,45
+Common,Regulation of immune system process,14.675717544702309,66
+Common,Hemopoiesis,18.190440285364733,56
+Common,Cell activation,20.34008379993015,64
+haEWAS-specific,Neural precursor cell proliferation,1.9281179926938747,7
+haEWAS-specific,Generation of neurons,3.062482107982653,28
+haEWAS-specific,Central nervous system development,3.707743928643524,24
+haEWAS-specific,Neurogenesis,4.118615343229427,34

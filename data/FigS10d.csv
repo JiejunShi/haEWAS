@@ -1,0 +1,13 @@
+Category,Term_wrapped,Overlap_genes,log_fdr
+EWAS (Unique),T-cell activation,8,1.9913998282380825
+EWAS (Unique),Response to type II interferon,6,3.6401645176601121
+EWAS (Unique),Negative regulation of innate immune response,6,4.4388986163509445
+EWAS (Unique),Antigen processing and presentation,9,7.636388020107856
+Common,Cytokine production,7,2.0491485411114536
+Common,Protein modification by small-protein conjugation,7,2.332547047110046
+Common,Regulation of immune-system processes,12,4.361510743045363
+Common,Type I interferon-mediated signaling pathway,5,4.9430951486635273
+haEWAS (Unique),Inflammatory response,27,5.6458915608525988
+haEWAS (Unique),Myeloid-cell differentiation,20,6.6439741428068775
+haEWAS (Unique),Cytoplasmic pattern-recognition receptor signaling,14,7.0814454694497266
+haEWAS (Unique),Lymphocyte activation,28,7.3665315444204138
