@@ -54,9 +54,9 @@ Reproduction/
 | Figure 5 | haEWAS identifies pan-cancer overall-survival-associated loci and improves prognostic stratification. | `code/figures/Fig5a.py`; `code/figures/plot_fig5b.py`; `code/figures/Fig5cde.py` |
 | Figure 6 | haEWAS uncovers additional cell type-specific differentially methylated loci in hepatocellular adenoma. | `code/figures/plot_fig6a.py`–`plot_fig6f.py` |
 | Supplementary Figure 1 | Participant-level validation of A2H predictions in PGP-UK blood samples. | `code/figures/plot_figs1ab.py` |
-| Supplementary Figure 2 | Comparison of A2H with *m*² and *m*³ in matched CpG groups. | `code/data_analysis/prepare_figs2ad.py`; `code/figures/plot_figs2ad.py` |
-| Supplementary Figure 3 | CpG-specific prediction accuracy of A2H. | `code/data_analysis/prepare_figs3ad.py`; `code/figures/plot_figs3ad.py` |
-| Supplementary Figure 4 | Robustness of A2H prediction performance to sequencing depth and read length. | `code/data_analysis/prepare_figs4ab.py`; `code/figures/plot_figs4ab.py` |
+| Supplementary Figure 2 | Comparison of A2H with *m*² and *m*³ in matched CpG groups. | `code/figures/plot_figs2ad.py` |
+| Supplementary Figure 3 | CpG-specific prediction accuracy of A2H. | `code/figures/plot_figs3ad.py` |
+| Supplementary Figure 4 | Robustness of A2H prediction performance to sequencing depth and read length. | `code/figures/plot_figs4ab.py`                               |
 | Supplementary Figure 5 | Effect of cell-type exclusion on A2H prediction performance in the PGP-UK blood cohort. | `code/figures/plot_figs5ab.py` |
 | Supplementary Figure 6 | Cell-type holdout validation of A2H in the EGA reference atlas. | `code/figures/plot_figs6.py` |
 | Supplementary Figure 7 | Distributional properties and cross-cohort consistency of average methylation and methylation heterogeneity. | `code/figures/plot_figs7.py` |
