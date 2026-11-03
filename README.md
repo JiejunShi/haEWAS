@@ -6,7 +6,7 @@
 
 ## Description
 
-Epigenome-wide association studies (EWAS) have linked DNA methylation to many human diseases and traits, but most array-based studies rely on the average methylation level at each CpG. However, average methylation obscures the distribution of methylation states across DNA molecules, a disease-relevant feature captured by methylation heterogeneity but largely inaccessible to conventional array-based EWAS. Here we introduce heterogeneity-adjusted EWAS (haEWAS), which uses average-to-heterogeneity conversion models trained on deep methylomes from 205 reference samples to infer CpG-level methylation heterogeneity from standard methylation arrays and link this hidden methylation layer to human phenotypes at population scale. Applied to 572 cohorts comprising 139,869 samples, haEWAS identified 59,832 phenotype-associated loci across 46 phenotypes, including 42,768 missed by conventional EWAS. haEWAS-derived loci improved systemic lupus erythematosus case–control classification across independent cohorts, strengthened cis-regulatory interpretation in Alzheimer’s disease, improved survival prediction across 15 cancer types and resolved cell-type-specific methylation alterations in hepatocellular adenoma. Together, these findings establish methylation heterogeneity as a disease-relevant epigenetic signal inferable from methylation arrays, enabling epigenome–phenotype discovery beyond average methylation.
+haEWAS extends array-based EWAS by inferring methylation heterogeneity from standard methylation arrays and testing its association with human phenotypes. This repository provides the code and panel-level source data used to reproduce the study analyses and figures.
 
 ## Dependency
 
