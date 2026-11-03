@@ -93,7 +93,7 @@ def draw_b(figure, data, source):
         "m": "#0072B2", "m2": "#D55E00", "m3": "#CC79A7",
         "haEWAS": "#8E6C9E",
     }
-    method_labels = {"m": "m", "m2": "m²", "m3": "m³", "haEWAS": "haEWAS"}
+    method_labels = {"m": "m", "m2": "m²", "m3": "m³", "haEWAS": "hm"}
     codes = {}
     for cohort, code in data[["Discovery", "DiscoveryCode"]].drop_duplicates().itertuples(index=False):
         codes[str(cohort)] = int(code)
@@ -105,7 +105,7 @@ def draw_b(figure, data, source):
     cohorts = [name for name, _ in sorted(codes.items(), key=lambda item: item[1])]
     pairs = list(itertools.permutations(cohorts, 2))
     labels = ["{}→{}".format(codes[a], codes[b]) for a, b in pairs]
-    bad_color = "#8F959E"
+    bad_color = "#E5E7EB"
     cmap = copy.copy(plt.get_cmap("RdBu_r"))
     cmap.set_bad(bad_color)
     norm = Normalize(vmin=-1, vmax=1)
@@ -114,7 +114,7 @@ def draw_b(figure, data, source):
         "font.family": "sans-serif",
         "font.sans-serif": ["Arial", "Liberation Sans", "DejaVu Sans"],
         "font.size": 6.2, "axes.labelsize": 6.2, "axes.titlesize": 7.2,
-        "xtick.labelsize": 4.7, "ytick.labelsize": 5.5,
+        "xtick.labelsize": 5.5, "ytick.labelsize": 4.7,
         "axes.linewidth": 0.5, "pdf.fonttype": 42, "svg.fonttype": "none",
     }
     ax_width = AX_WIDTH
@@ -135,7 +135,7 @@ def draw_b(figure, data, source):
                 ax_height * B_HEIGHT_MM / FIG_HEIGHT_MM,
             ])
             block = data.loc[data["Family"].eq(family)]
-            matrix = np.full((len(source.PC_LEVELS), len(pairs)), np.nan)
+            matrix = np.full((len(pairs), len(source.PC_LEVELS)), np.nan)
             for i, pc in enumerate(source.PC_LEVELS):
                 for j, (discovery, validation) in enumerate(pairs):
                     selected = block.loc[
@@ -147,30 +147,39 @@ def draw_b(figure, data, source):
                         raise ValueError("Missing or duplicate FigS12b heatmap cell")
                     value = selected["PearsonR"].iloc[0]
                     if pd.notna(value):
-                        matrix[i, j] = float(value)
+                        matrix[j, i] = float(value)
 
             image = ax.imshow(
                 np.ma.masked_invalid(matrix), cmap=cmap, norm=norm,
                 interpolation="none", aspect="auto",
             )
+            for pair_index in range(len(pairs)):
+                for pc_index in range(len(source.PC_LEVELS)):
+                    if not np.isfinite(matrix[pair_index, pc_index]):
+                        ax.text(
+                            pc_index, pair_index, "×", ha="center", va="center",
+                            color="#687078", fontsize=5.2, zorder=3,
+                        )
             ax.set_title(method_labels[family], pad=3)
-            ax.set_yticks(np.arange(len(source.PC_LEVELS)))
-            ax.set_yticklabels([str(pc) for pc in source.PC_LEVELS])
-            ax.set_xticks(np.arange(len(pairs)))
-            ax.set_xticklabels(labels, rotation=90, ha="center")
+            ax.set_xticks(np.arange(len(source.PC_LEVELS)))
+            ax.set_xticklabels([str(pc) for pc in source.PC_LEVELS])
+            ax.set_yticks(np.arange(len(pairs)))
+            ax.set_yticklabels(labels)
             if col == 0:
-                ax.set_ylabel("Number of PCs")
+                ax.set_ylabel("Discovery → validation cohort")
             else:
                 ax.tick_params(axis="y", labelleft=False)
             if row == 1:
-                ax.set_xlabel("Discovery → validation cohort")
+                ax.set_xlabel("Number of PCs")
             else:
                 ax.tick_params(axis="x", labelbottom=False)
-            ax.set_xticks(np.arange(-0.5, len(pairs), 1), minor=True)
-            ax.set_yticks(np.arange(-0.5, len(source.PC_LEVELS), 1), minor=True)
+            ax.set_xticks(np.arange(-0.5, len(source.PC_LEVELS), 1), minor=True)
+            ax.set_yticks(np.arange(-0.5, len(pairs), 1), minor=True)
             ax.grid(which="minor", color="white", linewidth=0.6)
             ax.tick_params(which="major", length=0, pad=1.5)
             ax.tick_params(which="minor", bottom=False, left=False)
+            ax.set_xlim(-0.5, len(source.PC_LEVELS) - 0.5)
+            ax.set_ylim(len(pairs) - 0.5, -0.5)
             for spine in ax.spines.values():
                 spine.set_visible(True)
                 spine.set_linewidth(0.45)
@@ -193,7 +202,7 @@ def draw_b(figure, data, source):
         colorbar.outline.set_linewidth(0.45)
         figure.legend(
             handles=[Patch(
-                facecolor=bad_color, edgecolor="#737A84", label="Undefined r"
+                facecolor=bad_color, edgecolor="#D0D4D8", label="×  Undefined r"
             )],
             loc="center left",
             bbox_to_anchor=(0.84, (b_offset + 0.44 * B_HEIGHT_MM) / FIG_HEIGHT_MM),
