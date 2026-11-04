@@ -1,9 +1,5 @@
 # **Methylation heterogeneity reveals hidden epigenome–phenotype associations**
 
-**Authors:** Shengwei Li<sup>&#42;</sup>, Chaorong Chen<sup>&#42;</sup>, Shuting Zhou, Shengying Wang, Ya Allen Cui, Wei Li<sup>✉</sup>, Jiejun Shi<sup>✉</sup>
-
-<sup>*</sup> These authors contributed equally. <sup>✉</sup> Corresponding authors.
-
 ## Description
 
 haEWAS extends array-based EWAS by inferring methylation heterogeneity from standard methylation arrays and testing its association with human phenotypes. This repository provides the code and panel-level source data used to reproduce the study analyses and figures.
