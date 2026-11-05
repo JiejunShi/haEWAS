@@ -75,8 +75,8 @@ def run():
         source.renderer.fix_axes(fig)
         if fig._suptitle is not None:
             fig._suptitle.remove()
-        fig.axes[0].set_title("hm(CAMDA) (N={:,} groups)".format(group_count), pad=5)
-        fig.axes[1].set_title("hm(CHALM) (N={:,} groups)".format(group_count), pad=5)
+        fig.axes[0].set_title("hm(CAMDA)", pad=5)
+        fig.axes[1].set_title("hm(CHALM)", pad=5)
         for ax in fig.axes[:2]:
             ax.set_ylim(-.5, 1)
             ax.set_yticks([-.5, 0, .5, 1])
